@@ -6,8 +6,8 @@ install! 'cocoapods', integrate_targets: false
 
 target 'MLKit' do
   use_frameworks!
-  pod 'GoogleMLKit/FaceDetection', '~> 6.0.0'
-  pod 'GoogleMLKit/BarcodeScanning', '~> 6.0.0'
+  pod 'GoogleMLKit/FaceDetection', '~> 9.0.0'
+  pod 'GoogleMLKit/BarcodeScanning', '~> 9.0.0'
 end
 
 # Workaround for Xcode 14 beta
